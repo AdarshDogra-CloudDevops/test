@@ -22,4 +22,28 @@ Feel free to **Start, Restart,** or **Stop (2)** your virtual machine as needed 
 
    ![](./images/vmssr2.png)
 
-   
+## Access DSP Files on Linux VM
+
+Follow these steps to access and use DSP files on your Linux virtual machine:
+
+### Check Available Files
+
+```bash
+ls /opt/dsp-files
+```
+### Copy Files to Home Directory
+
+```bash
+cp -r /opt/dsp-files ~/
+sudo chown -R $USER:$USER ~/dsp-files
+```
+You can now access and use the DSP files from your home directory as needed.
+
+## Support Contact
+
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: labs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
